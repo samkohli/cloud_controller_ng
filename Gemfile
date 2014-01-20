@@ -53,3 +53,7 @@ group :test do
   gem "parallel_tests"
   gem "fakefs", require: "fakefs/safe"
 end
+
+group :development do
+  gem "foreman"
+end
